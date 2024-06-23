@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Custom Umbrella</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <div class="img-container">
+          <div id="loader-container" class="loader-container">
+            <img src="./assets/loader_icon.svg" alt="loader" width="100px" />
+          </div>
+          <div id="logo-div" class="logo-div">
+            <img id="logo-img" src="" alt="" style="width: 100%; height: 0%" />
+          </div>
+          <div id="img-div" class="img-div">
+            <img
+              id="umbrella-img"
+              class="umbrella-img"
+              src="./assets/Blue.png"
+              alt="Blue Umbrella"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="customizing-container">
+        <div class="customizing-content">
+          <h1>Custom Umbrella</h1>
+          <div class="color-selectors">
+            <img
+              id="blue-btn"
+              class="color-selector"
+              src="./icons/blue-icon.ico"
+              alt=""
+            />
+            <img
+              id="pink-btn"
+              class="color-selector"
+              src="./icons/pink-icon.ico"
+              alt=""
+            />
+            <img
+              id="yellow-btn"
+              class="color-selector"
+              src="./icons/yellow-icon.ico"
+              alt=""
+            />
+          </div>
+          <h4>Customize your umbrella</h4>
+          <p>
+            Upload a logo for an instant preview. .png and .jpg files only. Max
+            file size 5MB
+          </p>
+          <button id="upload-button" class="upload-btn">
+            <input id="input-file" type="file" />
+            <img src="./assets/upload_icon.svg" alt="" />
+            Upload Logo
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
